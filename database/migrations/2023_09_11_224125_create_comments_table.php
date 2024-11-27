@@ -22,7 +22,6 @@ return new class extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('user_type');
 
-
             //Link Content
             $table->unsignedBigInteger('content_id');
             $table->string('content_type');

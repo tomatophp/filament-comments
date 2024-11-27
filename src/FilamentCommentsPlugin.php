@@ -7,7 +7,6 @@ use Filament\Panel;
 
 class FilamentCommentsPlugin implements Plugin
 {
-
     public function getId(): string
     {
         return 'filament-comments';
